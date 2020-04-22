@@ -7,8 +7,8 @@ for i=1:1000
     x1(i)=rand;
     x2(i)=rand;
 end
-for j1=1:10
-    for j2=1:10
+for j1=1:30
+    for j2=1:30
         w1(j1,j2)=rand*(0.52-0.48)+0.48;
         w2(j1,j2)=rand*(0.52-0.48)+0.48;
     end
