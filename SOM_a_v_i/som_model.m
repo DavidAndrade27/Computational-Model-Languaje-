@@ -87,6 +87,7 @@ end
 
  %store_estimulo_loop_t(:, :, t) = store_estimulo_loop;  
  %BMU_store_t(:,:, t) = BMU_store; 
+ 
 end
 quantization_error_som = mean(store_quantization_e);%QE total del som
 % BMU_final = BMU_store;
