@@ -166,6 +166,6 @@ b(t,:) = mean(store_que2_epocs(:,:,t));
 
  end
 a_final = a(T,:);
-b_final = a(T,:);
+b_final = b(T,:);
 
 %%FIN 
